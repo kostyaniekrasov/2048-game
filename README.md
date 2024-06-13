@@ -4,19 +4,18 @@ Use arrows or **WASD** to play.
 
 - [DEMO LINK](https://kostyaniekrasov.github.io/2048-game/)
 
-## Landing Page Description
+## Project Description
 
-This landing page promotes "Witch of Mountain Winds," a brand of eco-cosmetics and handcrafted candles.
-The site highlights the use of natural ingredients, environmentally friendly packaging, and a commitment to sustainability.
-It features various products like shampoos, oils, and candles, with an emphasis on protecting nature and supporting wildlife conservation.
+This project is a web-based version of the popular 2048 puzzle game. 
+Players combine numbered tiles by sliding them across the grid to reach the 2048 tile. 
+The game is built using HTML, CSS, and JavaScript, ensuring smooth animations and responsive design.
 
 ## What I learned
 
-#### Responsive Design: Using CSS Grid and Flexbox for adaptable layouts.
-
-#### Sass: Structuring styles with the preprocessor for better code organization and reuse.
-
-#### Animations and Interactions: Implementing pseudo-elements and transitions for smooth animations.
+#### JavaScript: Improved your ability to manipulate the DOM and handle game logic.
+#### CSS Flexbox/Grid: Achieved a responsive layout for various devices.
+#### Event Handling: Managed user interactions effectively.
+#### Async/Await: Implemented asynchronous operations for smooth animations and transitions.
 
 ## Prerequisites
 
