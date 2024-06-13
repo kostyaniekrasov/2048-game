@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<svg width="17" height="17" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="si-glyph si-glyph-button-arrow-up" version="1.1">
+ <title>1187</title>
+ <defs>
+  <symbol class="si-glyph si-glyph-button-arrow-up" height="800px" id="svg_4" version="1.1" viewBox="0 -0.5 17 17" width="800px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <title>1187</title>
+
+   <g fill="none" fill-rule="evenodd">
+    <g fill="#434343" transform="translate(1.000000, 0.000000)">
+     <path class="si-glyph-fill" d="m7.98,0.06c4.39,0 7.96,3.56 7.96,7.94c0,4.38 -3.57,7.94 -7.96,7.94c-4.39,0 -7.95,-3.56 -7.95,-7.94c0,-4.38 3.57,-7.94 7.95,-7.94l0,0zm-0.01,14.02c3.35,0 6.07,-2.73 6.07,-6.08c0,-3.35 -2.72,-6.08 -6.07,-6.08c-3.35,0 -6.07,2.73 -6.07,6.08c0,3.35 2.72,6.08 6.07,6.08l0,0z"/>
+     <path class="si-glyph-fill" d="m10.97,7.91l-3,-3.91l-2.95,3.91l2.01,0l0,3.26c0,0.35 0.32,0.79 0.95,0.79c0.63,0 0.98,-0.48 0.98,-0.83l0,-3.22l2.01,0l0,0z"/>
+    </g>
+   </g>
+  </symbol>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g fill="none" fill-rule="evenodd" id="svg_1">
+   <g fill="#434343" id="svg_2" transform="translate(1 0)">
+    <path class="si-glyph-fill" d="m10.47,8.43l-3,-3.91l-2.95,3.91l2.01,0l0,3.26c0,0.35 0.32,0.79 0.95,0.79c0.63,0 0.98,-0.48 0.98,-0.83l0,-3.22l2.01,0l0,0z" id="svg_3"/>
+   </g>
+  </g>
+  <use id="svg_5" transform="matrix(3.33333 0 0 3.33333 0 0)" x="0" xlink:href="#svg_4" y="0"/>
+ </g>
+</svg>

@@ -1,13 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miami</title>
-    <link rel="stylesheet" href="./styles/main.scss">
-    <script src="scripts/main.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2048</title>
+    <link rel="stylesheet" href="./styles/main.scss" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <h1>Landing Page</h1>
+    <div class="container">
+      <div class="game-header">
+        <div class="controls">
+          <h1>2048</h1>
+          <p class="info">Score: <span class="game-score">0</span></p>
+
+          <p class="info">Best: <span class="best-score">0</span></p>
+
+          <button class="button start" id="btnStart">Start</button>
+
+          <button class="button showControl" id="btnShowControl">
+            Show Control
+          </button>
+        </div>
+      </div>
+
+      <div class="game-field" id="game-field"></div>
+
+      <div class="message-container">
+        <p class="message message-lose hidden" id="message-lose">
+          You lose! Restart the game?
+        </p>
+
+        <p class="message message-win hidden" id="message-win">
+          Winner! Congrats! You did it!
+        </p>
+
+        <p class="message message-start" id="message-start">
+          Press "Start" to begin game. Good luck!
+        </p>
+      </div>
+
+      <div class="game-buttons" id="buttonsControl">
+        <button
+          class="game-buttons__button game-buttons__button--left"
+          style="--rotation: -90deg"
+          id="buttonLeft"
+        ></button>
+        <div class="game-buttons__wrapper">
+          <button
+            class="game-buttons__button game-buttons__button--up"
+            style="--rotation: 0deg"
+            id="buttonUp"
+          ></button>
+          <button
+            class="game-buttons__button game-buttons__button--down"
+            style="--rotation: 180deg"
+            id="buttonDown"
+          ></button>
+        </div>
+        <button
+          class="game-buttons__button game-buttons__button--right"
+          style="--rotation: 90deg"
+          id="buttonRight"
+        ></button>
+      </div>
+    </div>
+    <script type="module" src="scripts/main.js"></script>
   </body>
 </html>
