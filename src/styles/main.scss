@@ -134,6 +134,18 @@ button {
   grid-template-rows: repeat(4, $game-field-size);
   gap: $game-field-gap;
   border-radius: 5px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    @media (min-width: 760px) {
+      flex-direction: row;
+      // justify-content: center;
+    }
+  }
 }
 
 .game-header {
@@ -283,19 +295,8 @@ h1 {
 }
 
 .game-buttons {
-  display: none;
+  display: flex;
   align-items: center;
-
-  @media (min-width: 760px) {
-    position: absolute;
-    left: 10px;
-    top: 0;
-    bottom: 0;
-  }
-
-  @media (min-width: 1000px) {
-    left: 5%;
-  }
 
   &__wrapper {
     display: flex;

@@ -24,8 +24,33 @@
         </div>
       </div>
 
-      <div class="game-field" id="game-field"></div>
-
+      <div class="game-field__wrapper">
+        <div class="game-field" id="game-field"></div>
+        <div class="game-buttons" id="buttonsControl">
+          <button
+            class="game-buttons__button game-buttons__button--left"
+            style="--rotation: -90deg"
+            id="buttonLeft"
+          ></button>
+          <div class="game-buttons__wrapper">
+            <button
+              class="game-buttons__button game-buttons__button--up"
+              style="--rotation: 0deg"
+              id="buttonUp"
+            ></button>
+            <button
+              class="game-buttons__button game-buttons__button--down"
+              style="--rotation: 180deg"
+              id="buttonDown"
+            ></button>
+          </div>
+          <button
+            class="game-buttons__button game-buttons__button--right"
+            style="--rotation: 90deg"
+            id="buttonRight"
+          ></button>
+        </div>
+      </div>
       <div class="message-container">
         <p class="message message-lose hidden" id="message-lose">
           You lose! Restart the game?
@@ -38,31 +63,6 @@
         <p class="message message-start" id="message-start">
           Press "Start" to begin game. Good luck!
         </p>
-      </div>
-
-      <div class="game-buttons" id="buttonsControl">
-        <button
-          class="game-buttons__button game-buttons__button--left"
-          style="--rotation: -90deg"
-          id="buttonLeft"
-        ></button>
-        <div class="game-buttons__wrapper">
-          <button
-            class="game-buttons__button game-buttons__button--up"
-            style="--rotation: 0deg"
-            id="buttonUp"
-          ></button>
-          <button
-            class="game-buttons__button game-buttons__button--down"
-            style="--rotation: 180deg"
-            id="buttonDown"
-          ></button>
-        </div>
-        <button
-          class="game-buttons__button game-buttons__button--right"
-          style="--rotation: 90deg"
-          id="buttonRight"
-        ></button>
       </div>
     </div>
     <script type="module" src="scripts/main.js"></script>
