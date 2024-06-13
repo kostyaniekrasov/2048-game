@@ -27,13 +27,13 @@ The game is built using HTML, CSS, and JavaScript, ensuring smooth animations an
 **1. Clone the repository:**
 
 ```
-git clone https://github.com/kostyaniekrasov/museum_v2-landing.git
+git clone https://github.com/kostyaniekrasov/2048-game.git
 ```
 
 **2. Navigate to the project directory:**
 
 ```
-cd museum_v2-landing
+cd 2048-game
 ```
 
 **3. Install the dependencies:**
