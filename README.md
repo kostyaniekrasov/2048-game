@@ -1,4 +1,4 @@
-# 2048 game with JS.
+# 2048 game with JS and SCSS.
 
 Use arrows or **WASD** to play.
 
